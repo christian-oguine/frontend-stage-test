@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   ssr: true, // ✅ Make sure SSR is enabled
   devtools: { enabled: true },
   nitro: {
-    preset: 'netlify'
+    preset: 'vercel'
   },
 
   app: {
